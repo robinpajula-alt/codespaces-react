@@ -1,12 +1,13 @@
 import ExpenseItem from "./ExpenseItem.jsx";
+import Card from "./Card.jsx";
 import "./Expenses.css";
 
 const Expenses = (props) => {
   return (
-    <div className="expenses">
-      <ExpenseItem data={props.items[0]} />
-      <ExpenseItem data={props.items[1]} />
-    </div>
+    <Card className="expenses">
+      <ExpenseItem data={props.expenses[0]} />
+      <ExpenseItem data={props.expenses[1]} />
+    </Card>
   );
 };
 
