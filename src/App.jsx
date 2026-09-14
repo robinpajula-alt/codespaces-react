@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Expenses items={expenses} />
+      <Expenses expenses={expenses} />
     </div>
   );
 };
